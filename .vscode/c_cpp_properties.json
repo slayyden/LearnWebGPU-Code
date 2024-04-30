@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "DDEV_MODE=ON ",
+                "DCMAKE_BUILD_TYPE=Debug",
+                "RESOURCE_DIR=\"${CMAKE_CURRENT_SOURCE_DIR}/resources\""
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
